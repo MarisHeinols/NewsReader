@@ -2,4 +2,4 @@
 *.log
 
 # ignore the file literally named configure.txt
-configure.txtdebug.log 
+configure.txt

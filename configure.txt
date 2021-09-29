@@ -1,6 +1,0 @@
-selectedCountry: en
-selectedCategory: business
-selectedSources: bbc-news
-selectedTheme: Germany
-volume: 2.0
-api:3790854fba94455993448af6b8a74cf1

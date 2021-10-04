@@ -2,14 +2,16 @@ from newsapi import NewsApiClient
 import pyttsx3
 from Logger import getLogger
 from ConfigReader import readConf
-from DataBase import addData
 from datetime import date
+from DataBase import addDataToMongo
 
+# Get logger
 logger = getLogger(__name__)
 today = date.today()
 
 
 def getNews():
+    # Read configuartion file
     config = readConf()
 
     newsapi = NewsApiClient(api_key=config['api'])  # Setting the api key
@@ -31,8 +33,8 @@ def getNews():
             title = aticle['title']
             print(title)
             engine.say(title)
-            addData(title, config["selectedSources"],
-                    today.strftime("%d/%m/%Y"))
+            addDataToMongo(title, config["selectedSources"],
+                           today.strftime("%d/%m/%Y"))
 
     else:
         print("No headlines found!")

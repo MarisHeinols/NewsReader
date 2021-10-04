@@ -3,3 +3,6 @@
 
 # ignore the file literally named configure.txt
 configure.txt
+
+# ignore all sqlite files
+*.sqlite

@@ -1,10 +1,18 @@
+from logging import log
 import certifi
 import pymongo
 import sqlite3
 from Logger import getLogger
+from ConfigReader import readConf
 
 # Initalizing logger
 logger = getLogger(__name__)
+
+# Reading config
+config = readConf()
+password = config["password"].strip()
+user = config["user"].strip()
+dataBase = config["dataBase"].strip()
 
 # SQLite variables
 conn = sqlite3.connect('News.sqlite')
@@ -13,7 +21,9 @@ ca = certifi.where()
 
 # MongoDb variables
 myclient = pymongo.MongoClient(
-    'mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority', tlsCAFile=ca)
+    f'mongodb+srv://{user}:{password}@{dataBase}.ray5r.mongodb.net/News?retryWrites=true&w=majority', tlsCAFile=ca)
+logger.info("Conecting to "
+    f'mongodb+srv://{user}:{password}@{dataBase}.ray5r.mongodb.net/News?retryWrites=true&w=majority')
 mydb = myclient["News"]
 mycol = mydb["News"]
 

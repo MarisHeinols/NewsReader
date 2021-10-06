@@ -1,7 +1,10 @@
 import certifi
 import pymongo
 import sqlite3
+from Logger import getLogger
 
+# Initalizing logger
+logger = getLogger(__name__)
 
 # SQLite variables
 conn = sqlite3.connect('News.sqlite')
@@ -31,10 +34,12 @@ def addData(Headline, Source, Date):
         conn.commit()
     except:
         print('Data is already in database')
+        logger.info("Data was in data base already")
 # Adding data from server db to local db
 
 
 def addDataFromMongo():
+    logger.info("Adding data to local data base from db on server")
     dataArray = getDataFromMongo()
     for post in dataArray:
         addData(post.get("Headline"), post.get(
@@ -45,10 +50,13 @@ def addDataFromMongo():
 
 def createDb():
     try:
+        logger.info("Creating data local base")
         cur.execute(
             'CREATE TABLE News(Id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL UNIQUE, Headline TEXT NOT NULL UNIQUE, Source TEXT NOT NULL, Date DATE NOT NULL)')
         addDataFromMongo()
+        logger.info("Data base was sucsesful")
     except:
+        logger.info("Local db already exist")
         print('Table is already created')
         cur.execute('DELETE FROM News')
         conn.commit()

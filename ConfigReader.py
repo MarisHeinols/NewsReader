@@ -19,6 +19,6 @@ def readConf():
 
     for line in lines:
         values = line.split(":") 
-        dict[values[0]] = values[1].rstrip('\n') ## Values are adde to dictonary
+        dict[values[0]] = values[1].strip() ## Values are adde to dictonary
 
     return dict

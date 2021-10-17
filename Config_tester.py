@@ -2,9 +2,7 @@ import os
 from newsapi import NewsApiClient
 import certifi
 import pymongo
-
 from configparser import ConfigParser
-
 
 print("Configuration file test")
 

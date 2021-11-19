@@ -2,18 +2,20 @@
 from newsapi import NewsApiClient
 
 from Logger import getLogger
-from ConfigReader import readConf
 from NewsGetter import getNews
+from DataBase import createDb
+from SetUp import packageSetUp
+
+packageSetUp()
+
+createDb()
 
 logger = getLogger(__name__)
 
 logger.info("Started")
 
-## Getting news
+# Getting news
 getNews()
 
+
 logger.info('Finished')
-
-
-
-

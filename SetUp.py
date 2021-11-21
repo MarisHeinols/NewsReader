@@ -7,7 +7,7 @@ logger = getLogger(__name__)
 
 def packageSetUp():
 
-    packages = ["newsapi-python", "pyttsx3", "datetime", "pymongo"]
+    packages = ["newsapi-python", "pyttsx3", "datetime", "pymongo", "certifi"]
 
     for package in packages:
         try:

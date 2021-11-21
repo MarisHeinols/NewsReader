@@ -34,7 +34,7 @@ assert config.has_option('DB', 'dataBase') == True
 print("OK")
 print("----------")
 
-# Checking if possible to connect to nasa with the existing config options
+# Checking if possible to connect to NewsApi with the existing config options
 print("Checking if it is possible to connect to NEWS API with the given config options -->")
 newsapi = NewsApiClient(api_key=config.get('API', 'api'))
 top_headlines = newsapi.get_top_headlines(
@@ -62,7 +62,7 @@ print("OK")
 print("----------")
 
 # Checking if log file exist
-print("Checking if DB migration component log config file exists log_migrate_db.yaml -->")
+print("Checking if DB migration component log config file exists log_file.log -->")
 assert os.path.isfile("log_file.log") == True
 print("OK")
 print("----------")

@@ -2,7 +2,7 @@ from Logger import getLogger
 import pip
 logger = getLogger(__name__)
 
-# Installing all the necessary packadges for programm
+# Installing all the necessary packages for programm
 
 
 def packageSetUp():

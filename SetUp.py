@@ -1,8 +1,7 @@
+import os
 from Logger import getLogger
-import pip
 logger = getLogger(__name__)
-
-# Installing all the necessary packadges for programm
+# Installing all the necessary packages for programm
 
 
 def packageSetUp():
@@ -15,5 +14,5 @@ def packageSetUp():
             __import__(package)
             logger.info(package + " Is already installed")
         except ImportError:
-            pip.main(['install', package])
+            os.system('python -m pip install '+package)
             logger.info(package + " Is installed successfully")

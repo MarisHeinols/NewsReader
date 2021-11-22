@@ -4,21 +4,24 @@ from Logger import getLogger
 
 logger = getLogger(__name__)
 
+
 def readConf():
 
     lines = []
     dict = {}
-    ## Check if file exists
+    # Check if file exists
 
     if(os.path.exists('configure.txt')):
 
         with open('configure.txt') as conf:
             lines = conf.readlines()
 
-    ## Spliting text in lines via regex
+    # Spliting text in lines via regex
 
     for line in lines:
-        values = line.split(":") 
-        dict[values[0]] = values[1].rstrip('\n') ## Values are adde to dictonary
+        if(line == '[API]\n' or line == '[DB]\n'):
+            continue
+        values = line.split(":")
+        dict[values[0]] = values[1].strip()  # Values are adde to dictonary
 
     return dict

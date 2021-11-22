@@ -2,17 +2,23 @@ from newsapi import NewsApiClient
 import pyttsx3
 from Logger import getLogger
 from ConfigReader import readConf
+from datetime import date
+from DataBase import addDataToMongo
 
+# Get logger
 logger = getLogger(__name__)
+today = date.today()
+
 
 def getNews():
+    # Read configuartion file
     config = readConf()
-    
-    newsapi = NewsApiClient(api_key=config['api']) ## Setting the api key
-    
+
+    newsapi = NewsApiClient(api_key=config['api'])  # Setting the api key
+
     logger.info('Getting headlines from ' + config["selectedSources"])
     # Initalizing audio speaker and setting its volume
-    engine = pyttsx3.init()  
+    engine = pyttsx3.init()
     engine.setProperty('volume', float(config["volume"]))
     engine.say('Getting latest headlines from ' + config["selectedSources"])
     # Getting top headlines from source
@@ -27,6 +33,9 @@ def getNews():
             title = aticle['title']
             print(title)
             engine.say(title)
+            addDataToMongo(title, config["selectedSources"],
+                           today.strftime("%d/%m/%Y"))
+
     else:
         print("No headlines found!")
         engine.say("No headlines found!")
@@ -34,5 +43,5 @@ def getNews():
             'There where no headlines with this source ' + config["selectedSources"])
 
     engine.say("End of news find out more at" + config["selectedSources"])
-    
+
     engine.runAndWait()

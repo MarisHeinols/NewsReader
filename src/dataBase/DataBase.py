@@ -2,8 +2,8 @@ from logging import log
 import certifi
 import pymongo
 import sqlite3
-from Logger import getLogger
-from ConfigReader import readConf
+from log.Logger import getLogger
+from config.ConfigReader import readConf
 
 # Initalizing logger
 logger = getLogger(__name__)

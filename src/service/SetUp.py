@@ -1,5 +1,5 @@
 import os
-from Logger import getLogger
+from log.Logger import getLogger
 logger = getLogger(__name__)
 # Installing all the necessary packages for programm
 

@@ -1,9 +1,9 @@
 from newsapi import NewsApiClient
 import pyttsx3
-from Logger import getLogger
-from ConfigReader import readConf
+from log.Logger import getLogger
+from config.ConfigReader import readConf
 from datetime import date
-from DataBase import addDataToMongo
+from dataBase.DataBase import addDataToMongo
 
 # Get logger
 logger = getLogger(__name__)

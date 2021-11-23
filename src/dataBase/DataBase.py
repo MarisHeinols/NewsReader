@@ -44,8 +44,21 @@ def addData(Headline, Source, Date):
         conn.commit()
     except:
         logger.info("Data was in data base already")
-# Adding data from server db to local db
 
+# Adding data from local db to server db
+
+
+def mergeLocalDbToMongo():
+    cur.execute("SELECT * FROM News")
+
+    rows = cur.fetchall()
+
+    for row in rows:
+        id, headline, source, date = row
+        addDataToMongo(headline, source, date)
+
+
+# Adding data from server db to local db
 
 def addDataFromMongo():
     logger.info("Adding data to local data base from db on server")
@@ -83,6 +96,7 @@ def addDataToMongo(Headline, Source, Date):
             isInDb = True
 
     if (isInDb == False):
+        logger.info("Adding data to local db and mongo db")
         data = {"Headline": Headline, "Source": Source, "Date": Date}
         # If data does not exists on server add it to local db and server db
         x = mycol.insert_one(data)

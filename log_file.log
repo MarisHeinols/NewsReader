@@ -1,115 +1,152 @@
-22 Nov 2021 16:57:19;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 16:57:19;INFO;Installing newsapi-python package
-22 Nov 2021 16:59:06;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 16:59:06;INFO;Creating data local base
-22 Nov 2021 16:59:06;INFO;Local db already exist
-22 Nov 2021 16:59:06;INFO;Adding data to local data base from db on server
-22 Nov 2021 16:59:08;INFO;Started
-22 Nov 2021 16:59:08;INFO;Getting headlines from bbc-news
-22 Nov 2021 16:59:08;INFO;Imported existing <module 'comtypes.gen' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
-22 Nov 2021 16:59:08;INFO;Using writeable comtypes cache directory: 'C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\comtypes\gen'
-22 Nov 2021 17:00:39;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:00:39;INFO;Installing logger package
-22 Nov 2021 17:01:19;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:03:02;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:03:02;INFO;Installing logging package
-22 Nov 2021 17:03:02;INFO;logging Is already installed
-22 Nov 2021 17:03:02;INFO;Installing newsapi-python package
-22 Nov 2021 17:03:22;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:03:22;INFO;Installing logging package
-22 Nov 2021 17:03:22;INFO;logging Is already installed
-22 Nov 2021 17:03:22;INFO;Installing newsapi-python package
-22 Nov 2021 17:04:18;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:04:43;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:04:43;INFO;Creating data local base
-22 Nov 2021 17:04:43;INFO;Local db already exist
-22 Nov 2021 17:04:43;INFO;Adding data to local data base from db on server
-22 Nov 2021 17:04:45;INFO;Started
-22 Nov 2021 17:04:45;INFO;Getting headlines from bbc-news
-22 Nov 2021 17:04:45;INFO;Imported existing <module 'comtypes.gen' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
-22 Nov 2021 17:04:45;INFO;Using writeable comtypes cache directory: 'C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\comtypes\gen'
-22 Nov 2021 17:08:20;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:08:20;INFO;Installing newsapi-python package
-22 Nov 2021 17:09:40;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:09:40;INFO;Installing newsapi-python package
-22 Nov 2021 17:10:28;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:10:28;INFO;Installing newsapi-python package
-22 Nov 2021 17:14:27;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:14:47;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:19:30;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:19:30;INFO;Installing newsapi-python package
-22 Nov 2021 17:20:19;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:20:19;INFO;Installing newsapi-python package
-22 Nov 2021 17:20:30;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:20:30;INFO;Installing newsapi-python package
-22 Nov 2021 17:25:16;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:25:16;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:25:16;INFO;Creating data local base
-22 Nov 2021 17:25:16;INFO;Local db already exist
-22 Nov 2021 17:25:16;INFO;Adding data to local data base from db on server
-22 Nov 2021 17:25:18;INFO;Started
-22 Nov 2021 17:25:18;INFO;Getting headlines from bbc-news
-22 Nov 2021 17:25:18;INFO;Imported existing <module 'comtypes.gen' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
-22 Nov 2021 17:25:18;INFO;Using writeable comtypes cache directory: 'C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\comtypes\gen'
-22 Nov 2021 17:28:02;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:28:03;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:28:03;INFO;Creating data local base
-22 Nov 2021 17:28:03;INFO;Local db already exist
-22 Nov 2021 17:28:03;INFO;Adding data to local data base from db on server
-22 Nov 2021 17:28:04;INFO;Started
-22 Nov 2021 17:28:04;INFO;Getting headlines from bbc-news
-22 Nov 2021 17:28:04;INFO;Imported existing <module 'comtypes.gen' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
-22 Nov 2021 17:28:04;INFO;Using writeable comtypes cache directory: 'C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\comtypes\gen'
-22 Nov 2021 17:28:51;INFO;Finished
-22 Nov 2021 17:29:35;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:29:35;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:29:35;INFO;Creating data local base
-22 Nov 2021 17:29:35;INFO;Local db already exist
-22 Nov 2021 17:29:35;INFO;Adding data to local data base from db on server
-22 Nov 2021 17:29:36;INFO;Started
-22 Nov 2021 17:29:36;INFO;Getting headlines from bbc-news
-22 Nov 2021 17:29:36;INFO;Imported existing <module 'comtypes.gen' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
-22 Nov 2021 17:29:36;INFO;Using writeable comtypes cache directory: 'C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\comtypes\gen'
-22 Nov 2021 17:30:23;INFO;Finished
-22 Nov 2021 17:30:23;INFO;Installing newsapi-python package
-22 Nov 2021 17:31:57;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:31:57;INFO;Installing newsapi-python package
-22 Nov 2021 17:31:58;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:31:58;INFO;Installing newsapi-python package
-22 Nov 2021 17:36:54;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:36:54;INFO;Installing newsapi-python package
-22 Nov 2021 17:36:55;INFO;newsapi-python Is installed successfully
-22 Nov 2021 17:36:55;INFO;Installing pyttsx3 package
-22 Nov 2021 17:36:55;INFO;pyttsx3 Is already installed
-22 Nov 2021 17:36:55;INFO;Installing datetime package
-22 Nov 2021 17:36:55;INFO;datetime Is already installed
-22 Nov 2021 17:36:55;INFO;Installing pymongo package
-22 Nov 2021 17:36:55;INFO;pymongo Is already installed
-22 Nov 2021 17:36:55;INFO;Installing certifi package
-22 Nov 2021 17:36:55;INFO;certifi Is already installed
-22 Nov 2021 17:36:55;INFO;Creating data local base
-22 Nov 2021 17:36:55;INFO;Local db already exist
-22 Nov 2021 17:36:55;INFO;Adding data to local data base from db on server
-22 Nov 2021 17:36:56;INFO;Started
-22 Nov 2021 17:36:56;INFO;Getting headlines from bbc-news
-22 Nov 2021 17:36:56;INFO;Imported existing <module 'comtypes.gen' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
-22 Nov 2021 17:36:56;INFO;Using writeable comtypes cache directory: 'C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\comtypes\gen'
-22 Nov 2021 17:37:42;INFO;Finished
-22 Nov 2021 17:38:23;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
-22 Nov 2021 17:38:23;INFO;Installing newsapi-python package
-22 Nov 2021 17:38:24;INFO;newsapi-python Is installed successfully
-22 Nov 2021 17:38:24;INFO;Installing pyttsx3 package
-22 Nov 2021 17:38:24;INFO;pyttsx3 Is already installed
-22 Nov 2021 17:38:24;INFO;Installing datetime package
-22 Nov 2021 17:38:24;INFO;datetime Is already installed
-22 Nov 2021 17:38:24;INFO;Installing pymongo package
-22 Nov 2021 17:38:24;INFO;pymongo Is already installed
-22 Nov 2021 17:38:24;INFO;Installing certifi package
-22 Nov 2021 17:38:24;INFO;certifi Is already installed
-22 Nov 2021 17:38:24;INFO;Creating data local base
-22 Nov 2021 17:38:24;INFO;Adding data to local data base from db on server
-22 Nov 2021 17:38:25;INFO;Data base was sucsesful
-22 Nov 2021 17:38:25;INFO;Started
-22 Nov 2021 17:38:25;INFO;Getting headlines from bbc-news
-22 Nov 2021 17:38:25;INFO;Imported existing <module 'comtypes.gen' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
-22 Nov 2021 17:38:25;INFO;Using writeable comtypes cache directory: 'C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\comtypes\gen'
+23 Nov 2021 13:38:16;INFO;Conecting to mongodb+srv://user:OBxIoqsu4yDflTQq@news.ray5r.mongodb.net/News?retryWrites=true&w=majority
+23 Nov 2021 13:38:16;INFO;Installing newsapi-python package
+23 Nov 2021 13:38:17;INFO;newsapi-python Is installed successfully
+23 Nov 2021 13:38:17;INFO;Installing pyttsx3 package
+23 Nov 2021 13:38:17;INFO;pyttsx3 Is already installed
+23 Nov 2021 13:38:17;INFO;Installing datetime package
+23 Nov 2021 13:38:17;INFO;datetime Is already installed
+23 Nov 2021 13:38:17;INFO;Installing pymongo package
+23 Nov 2021 13:38:17;INFO;pymongo Is already installed
+23 Nov 2021 13:38:17;INFO;Installing certifi package
+23 Nov 2021 13:38:17;INFO;certifi Is already installed
+23 Nov 2021 13:38:17;INFO;Creating data local base
+23 Nov 2021 13:38:17;INFO;Local db already exist
+23 Nov 2021 13:38:17;INFO;Adding data to local data base from db on server
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Data was in data base already
+23 Nov 2021 13:38:18;INFO;Started
+23 Nov 2021 13:38:18;INFO;Getting headlines from bbc-news
+23 Nov 2021 13:38:18;INFO;Imported existing <module 'comtypes.gen' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+23 Nov 2021 13:38:18;INFO;Using writeable comtypes cache directory: 'C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\comtypes\gen'

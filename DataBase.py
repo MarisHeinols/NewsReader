@@ -43,7 +43,6 @@ def addData(Headline, Source, Date):
             'INSERT INTO News (Headline, Source, Date) VALUES (?, ?, ?)', (Headline, Source, Date))
         conn.commit()
     except:
-        print('Data is already in database')
         logger.info("Data was in data base already")
 # Adding data from server db to local db
 
@@ -67,8 +66,6 @@ def createDb():
         logger.info("Data base was sucsesful")
     except:
         logger.info("Local db already exist")
-        print('Table is already created')
-        cur.execute('DELETE FROM News')
         conn.commit()
         addDataFromMongo()
 

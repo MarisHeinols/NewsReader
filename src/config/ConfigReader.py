@@ -1,6 +1,6 @@
 import re
 import os.path
-from Logger import getLogger
+from log.Logger import getLogger
 
 logger = getLogger(__name__)
 

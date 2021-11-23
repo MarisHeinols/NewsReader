@@ -2,8 +2,8 @@ from logging import log
 import certifi
 import pymongo
 import sqlite3
-from Logger import getLogger
-from ConfigReader import readConf
+from log.Logger import getLogger
+from config.ConfigReader import readConf
 
 # Initalizing logger
 logger = getLogger(__name__)
@@ -43,10 +43,22 @@ def addData(Headline, Source, Date):
             'INSERT INTO News (Headline, Source, Date) VALUES (?, ?, ?)', (Headline, Source, Date))
         conn.commit()
     except:
-        print('Data is already in database')
         logger.info("Data was in data base already")
-# Adding data from server db to local db
 
+# Adding data from local db to server db
+
+
+def mergeLocalDbToMongo():
+    cur.execute("SELECT * FROM News")
+
+    rows = cur.fetchall()
+
+    for row in rows:
+        id, headline, source, date = row
+        addDataToMongo(headline, source, date)
+
+
+# Adding data from server db to local db
 
 def addDataFromMongo():
     logger.info("Adding data to local data base from db on server")
@@ -67,8 +79,6 @@ def createDb():
         logger.info("Data base was sucsesful")
     except:
         logger.info("Local db already exist")
-        print('Table is already created')
-        cur.execute('DELETE FROM News')
         conn.commit()
         addDataFromMongo()
 
@@ -86,6 +96,7 @@ def addDataToMongo(Headline, Source, Date):
             isInDb = True
 
     if (isInDb == False):
+        logger.info("Adding data to local db and mongo db")
         data = {"Headline": Headline, "Source": Source, "Date": Date}
         # If data does not exists on server add it to local db and server db
         x = mycol.insert_one(data)

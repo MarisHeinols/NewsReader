@@ -1,9 +1,12 @@
+from service.SetUp import packageSetUp
+packageSetUp()
+
 from log.Logger import getLogger
 from service.NewsGetter import getNews
 from dataBase.DataBase import createDb
-from service.SetUp import packageSetUp
 
-packageSetUp()
+
+
 
 logger = getLogger(__name__)
 
